@@ -1,7 +1,7 @@
 # Insurance Website
 
 ##### By Brian Jomo
-### It is a description of my Insurance website.
+### It is a description of an Insurance website landing page.
 
 ## Table of Content
 
