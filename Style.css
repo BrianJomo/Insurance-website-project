@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  height: 100%;
+
+}
+
+/*------navigation bar------*/
+#layout {
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100vh;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(46, 43, 43, 0.5);
+  /* Black background with opacity */
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./IP\ 2\ images/hero-cover.3.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.confine {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+  padding: 0 20px;
+  font-weight: bold;
+  margin: 0%;
+  text-decoration: none;
+  position: relative;
+}
+
+.toplinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.toplinks a:hover {
+  color: rgb(0, 0, 0);
+  transition: .9s;
+}
+
+.toplinks a:after {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 7px;
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: transform 250ms;
+  transition: transform 250ms;
+}
+
+.toplinks a:hover:after {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+}
+
+.logo h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.login h2 {
+  color: white;
+}
+
+.member-tool {
+  margin-left: 40px;
+}
+
+.member-tool:hover {
+  background: rgb(36, 166, 240);
+  transition: 1s;
+}
+
+.banner {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+	flex-wrap: wrap;
+	justify-content:  space-around; 
+    margin-top: 15%;
+    */
+}
+
+.start-1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.start-1 h2 {
+  font-size: 65px;
+  line-height: 60px;
+  margin: 25px 0;
+  color: white;
+}
+
+.start-1 p {
+  font-size: 25px;
+  line-height: 40px;
+  margin: 35px 0;
+  justify-content: center;
+  color: white;
+}
