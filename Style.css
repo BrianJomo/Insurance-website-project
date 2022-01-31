@@ -771,3 +771,86 @@ input[type=text] {
   text-align: center;
 
 }
+
+.footer-start-1 h2 {
+  color: black;
+}
+
+.footer-start ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.line-5 p {
+  color: rgb(47, 44, 44);
+  font-size: 20px;
+
+}
+
+.footer-start .fa {
+  color: rgb(36, 166, 240);
+  font-size: 35px;
+  padding-top: 20px;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+
+.consultation {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.line-5 h2 {
+  color: rgb(32, 31, 31);
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.line-5 button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bolder;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 23px;
+  background: transparent;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(36, 166, 240);
+  color: white;
+}
+
+.line-5 button:hover {
+  background: rgb(36, 166, 240);
+  transition: 1s;
+  color: black;
+}
+
+.bottom-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.icons-footer .fa {
+  color: rgb(36, 166, 240);
+  font-size: 35px;
+  padding-top: 20px;
+  margin-left: 30px;
+
+}
+
+.icons-footer {
+  justify-content: space-evenly;
+}
