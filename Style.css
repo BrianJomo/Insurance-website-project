@@ -466,3 +466,43 @@ nav .fa {
   font-size: 45px;
   padding: 20px;
 }
+
+.details p {
+  font-size: 20px;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.start-5 {
+  flex: 1;
+  border: 1px solid #666;
+  margin: 70px;
+  padding: 50px;
+  background: #fff;
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.start-5 p {
+  font-size: 20px;
+  color: rgb(53, 50, 50);
+  padding: 20px;
+}
+
+.start-5 .fa {
+  color: #f3ce35;
+  font-size: 24px;
+}
+
+.col-5:hover {
+  background: rgb(232, 235, 238);
+  transform: translateY(-15px);
+  transition: transfom.3s;
+}
