@@ -188,4 +188,89 @@ nav .fa {
   border-radius: 10px;
 }
 
+/*------media query-----*/
+@media (max-width:900px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .top-button {
+    display: flex;
+  }
+
+  .toplinks {
+    width: 100%;
+  }
+
+  .navigation-bar {
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  #navbar-tools {
+    flex-direction: column;
+    width: 100%;
+    margin: 40px;
+    align-items: flex-start;
+  }
+
+  #nav-tools li {
+    text-align: center;
+  }
+
+  #nav-tools.active {
+    display: flex;
+  }
+
+  /*--
+    .navigation-bar{
+        justify-content: start;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    nav ul li{
+         margin: 40px 0;
+    }
+    nav ul li a{
+        font-size: 30px;
+        display: block;
+    }
+    .toplinks a:hover{
+        color: rgb(0, 0, 0);
+        transition: .9s;
+    }*/
+  .start-1 h2 {
+    font-size: 45px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+  }
+
+  .start-1 p {
+    font-size: 15px;
+    line-height: 40px;
+    margin: 25px 0;
+    justify-content: center;
+    color: white;
+  }
+
+  .login {
+    display: none;
+  }
+
+  /*-----services--------*/
+  .confine-3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+
 
