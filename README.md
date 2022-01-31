@@ -16,7 +16,7 @@
 <p>This is  a modern website for an insurance company. It contains buttons, pictures, and a menu among many other modern website features .</p>
 
 ## Installation
-<p>To gain acess to this website click on this link:  </p>
+<p>To gain acess to this website click on this link: https://brianjomo.github.io/Insurance-website-project/ </p>
 
 ### Requirements
 
@@ -26,7 +26,7 @@
 
 ### Installation Process
 
-To have access to this website you will have to click on this link:  then you will immediately be directed to the website and explore its features.
+To have access to this website you will have to click on this link: https://brianjomo.github.io/Insurance-website-project/ then you will immediately be directed to the website and explore its features.
 
 ## Technology Used
 
