@@ -506,3 +506,62 @@ nav .fa {
   transform: translateY(-15px);
   transition: transfom.3s;
 }
+
+/*-----partners--------*/
+.partners {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 90px;
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.partners img {
+  width: 50%;
+  height: auto;
+
+}
+
+.start-6:hover {
+  transform: translateY(-15px);
+  transition: transfom.3s;
+}
+
+/*------subscribe----*/
+.subscribe {
+  border: 1px solid #666;
+  padding: 50px;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #143072, #9c28d4, #cd00ab, #e40082, #eb125e);
+  flex-wrap: wrap;
+}
+
+.subscribe .message {
+  align-self: flex-start;
+}
+
+.subscribe .email {
+  display: flex;
+  font-size: 30px;
+}
+
+.email h3 {
+  background: rgb(36, 166, 240);
+  padding: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.message h2 {
+  font-size: 36px;
+  color: #fff;
+}
+
+/*------price plans-----*/
+.pricing {
+  padding: 60px;
+  padding-bottom: 40px;
+  margin: 30px;
+}
