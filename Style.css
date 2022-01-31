@@ -169,5 +169,15 @@ nav .fa {
   cursor: pointer;
 }
 
+.top-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 
+}
 
