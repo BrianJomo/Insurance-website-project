@@ -758,3 +758,16 @@ label {
   transition: 1s;
   color: black;
 }
+
+input[type=text] {
+  width: 100%;
+  margin: 12px 0;
+  box-sizing: border-box;
+}
+
+/*---footer---*/
+.footer-start-1 {
+  padding-top: 40px;
+  text-align: center;
+
+}
