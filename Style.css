@@ -854,3 +854,10 @@ input[type=text] {
 .icons-footer {
   justify-content: space-evenly;
 }
+
+bottom-footer h2 {
+  font-size: 17px;
+  color: rgb(68, 64, 64);
+  padding-top: 20px;
+}
+
