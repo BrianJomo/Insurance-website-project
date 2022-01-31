@@ -416,3 +416,53 @@ nav .fa {
   padding-right: 30px;
   flex-wrap: wrap;
 }
+
+.start-4 {
+  flex: 1;
+  border: none;
+  margin: 20px;
+  padding: 60px;
+  background: #fff;
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+.start-4 p {
+  font-size: 15px;
+  margin: 12px 0;
+  color: rgb(49, 46, 46);
+}
+
+.start-4 h2 {
+  font-weight: 600;
+  color: rgb(3, 0, 0);
+  font-size: 30px;
+}
+
+.start-4 .fa {
+  font-size: 40px;
+  color: rgb(36, 166, 240);
+}
+
+/*-----our team-----*/
+.team {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  margin: 50px;
+}
+
+.details {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.details h2 {
+  font-size: 45px;
+  padding: 20px;
+}
