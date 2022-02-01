@@ -13,7 +13,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is  a modern website for an insurance company. It contains buttons, pictures, and a menu among many other modern website features .</p>
+<p>This is  a modern website for an insurance company. It contains buttons, pictures, and a menu among many other modern website features. It is also responsive, it can be used on a desktop and a mobile phone .</p>
 
 ## Installation
 <p>To gain acess to this website click on this link: https://brianjomo.github.io/Insurance-website-project/ </p>
